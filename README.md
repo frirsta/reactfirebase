@@ -5,6 +5,9 @@ npm i @material-tailwind/react
 npm install formik --save
 npm install yup --save
 npm install spinner 
+npm install firebase
+npm install -g firebase-tools
+ reactfirebase % npm install -g firebase-tools
 
 https://heroicons.com/
 
