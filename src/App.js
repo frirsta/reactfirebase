@@ -1,7 +1,14 @@
 import { Page } from "./components/Pages/Page";
-
+import { BrowserRouter } from "react-router-dom";
+import AppContext from "./components/AppContext/AppContext";
 function App() {
-  return <h1 className="App"><Page></Page></h1>;
+  return (
+    <AppContext>
+      <BrowserRouter>
+        <Page></Page>
+      </BrowserRouter>
+    </AppContext>
+  );
 }
 
 export default App;
